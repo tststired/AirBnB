@@ -1,0 +1,51 @@
+{
+  "users": {
+    "test@gmail.com": {
+      "name": "John",
+      "password": "test",
+      "sessionActive": true
+    },
+    "test1@gmail.com": {
+      "name": "Jack",
+      "password": "test",
+      "sessionActive": true
+    }
+  },
+  "listings": {
+    "649654710": {
+      "title": "Good Place",
+      "owner": "test@gmail.com",
+      "address": "Sydney Somewhere",
+      "price": "400",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABHNCSVQICAgIfAhkiAAAAA1JREFUCJljYGBg+A8AAQQBAH2yyN8AAAAASUVORK5CYII=",
+      "metadata": {
+        "type": "Apartment",
+        "bathrooms": "3",
+        "bedrooms": "4",
+        "amenities": "Pool, Spa, Gym",
+        "beds": "6"
+      },
+      "reviews": [
+        {
+          "score": "4",
+          "comment": "Not Bad pretty good"
+        }
+      ],
+      "availability": [],
+      "published": false,
+      "postedOn": null
+    }
+  },
+  "bookings": {
+    "516261879": {
+      "owner": "test1@gmail.com",
+      "dateRange": {
+        "start": "2023-11-15",
+        "end": "2023-11-16"
+      },
+      "totalPrice": 400,
+      "listingId": "649654710",
+      "status": "accepted"
+    }
+  }
+}
